@@ -1,0 +1,15 @@
+[project]
+name = "langchain-api-agent"
+version = "0.1.0"
+description = "Minimal LangChain agent as a natural-language wrapper over a User Management API"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-ollama>=0.2.0",
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "httpx>=0.27.0",
+    "python-dotenv>=1.0.0",
+    "pydantic>=2.0.0",
+]
